@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: ae83ae16c477d4d2a99080082602b421
+timeCreated: 1494699106
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sweep_MeshPart0
+    100004: Sweep_MeshPart1
+    100006: Sweep_MeshPart10
+    100008: Sweep_MeshPart11
+    100010: Sweep_MeshPart12
+    100012: Sweep_MeshPart13
+    100014: Sweep_MeshPart14
+    100016: Sweep_MeshPart15
+    100018: Sweep_MeshPart16
+    100020: Sweep_MeshPart17
+    100022: Sweep_MeshPart18
+    100024: Sweep_MeshPart19
+    100026: Sweep_MeshPart2
+    100028: Sweep_MeshPart20
+    100030: Sweep_MeshPart21
+    100032: Sweep_MeshPart22
+    100034: Sweep_MeshPart23
+    100036: Sweep_MeshPart24
+    100038: Sweep_MeshPart3
+    100040: Sweep_MeshPart4
+    100042: Sweep_MeshPart5
+    100044: Sweep_MeshPart6
+    100046: Sweep_MeshPart7
+    100048: Sweep_MeshPart8
+    100050: Sweep_MeshPart9
+    400000: //RootNode
+    400002: Sweep_MeshPart0
+    400004: Sweep_MeshPart1
+    400006: Sweep_MeshPart10
+    400008: Sweep_MeshPart11
+    400010: Sweep_MeshPart12
+    400012: Sweep_MeshPart13
+    400014: Sweep_MeshPart14
+    400016: Sweep_MeshPart15
+    400018: Sweep_MeshPart16
+    400020: Sweep_MeshPart17
+    400022: Sweep_MeshPart18
+    400024: Sweep_MeshPart19
+    400026: Sweep_MeshPart2
+    400028: Sweep_MeshPart20
+    400030: Sweep_MeshPart21
+    400032: Sweep_MeshPart22
+    400034: Sweep_MeshPart23
+    400036: Sweep_MeshPart24
+    400038: Sweep_MeshPart3
+    400040: Sweep_MeshPart4
+    400042: Sweep_MeshPart5
+    400044: Sweep_MeshPart6
+    400046: Sweep_MeshPart7
+    400048: Sweep_MeshPart8
+    400050: Sweep_MeshPart9
+    2300000: Sweep_MeshPart0
+    2300002: Sweep_MeshPart1
+    2300004: Sweep_MeshPart10
+    2300006: Sweep_MeshPart11
+    2300008: Sweep_MeshPart12
+    2300010: Sweep_MeshPart13
+    2300012: Sweep_MeshPart14
+    2300014: Sweep_MeshPart15
+    2300016: Sweep_MeshPart16
+    2300018: Sweep_MeshPart17
+    2300020: Sweep_MeshPart18
+    2300022: Sweep_MeshPart19
+    2300024: Sweep_MeshPart2
+    2300026: Sweep_MeshPart20
+    2300028: Sweep_MeshPart21
+    2300030: Sweep_MeshPart22
+    2300032: Sweep_MeshPart23
+    2300034: Sweep_MeshPart24
+    2300036: Sweep_MeshPart3
+    2300038: Sweep_MeshPart4
+    2300040: Sweep_MeshPart5
+    2300042: Sweep_MeshPart6
+    2300044: Sweep_MeshPart7
+    2300046: Sweep_MeshPart8
+    2300048: Sweep_MeshPart9
+    3300000: Sweep_MeshPart0
+    3300002: Sweep_MeshPart1
+    3300004: Sweep_MeshPart10
+    3300006: Sweep_MeshPart11
+    3300008: Sweep_MeshPart12
+    3300010: Sweep_MeshPart13
+    3300012: Sweep_MeshPart14
+    3300014: Sweep_MeshPart15
+    3300016: Sweep_MeshPart16
+    3300018: Sweep_MeshPart17
+    3300020: Sweep_MeshPart18
+    3300022: Sweep_MeshPart19
+    3300024: Sweep_MeshPart2
+    3300026: Sweep_MeshPart20
+    3300028: Sweep_MeshPart21
+    3300030: Sweep_MeshPart22
+    3300032: Sweep_MeshPart23
+    3300034: Sweep_MeshPart24
+    3300036: Sweep_MeshPart3
+    3300038: Sweep_MeshPart4
+    3300040: Sweep_MeshPart5
+    3300042: Sweep_MeshPart6
+    3300044: Sweep_MeshPart7
+    3300046: Sweep_MeshPart8
+    3300048: Sweep_MeshPart9
+    4300000: Sweep_MeshPart0
+    4300002: Sweep_MeshPart1
+    4300004: Sweep_MeshPart2
+    4300006: Sweep_MeshPart3
+    4300008: Sweep_MeshPart4
+    4300010: Sweep_MeshPart5
+    4300012: Sweep_MeshPart6
+    4300014: Sweep_MeshPart7
+    4300016: Sweep_MeshPart8
+    4300018: Sweep_MeshPart9
+    4300020: Sweep_MeshPart10
+    4300022: Sweep_MeshPart11
+    4300024: Sweep_MeshPart12
+    4300026: Sweep_MeshPart13
+    4300028: Sweep_MeshPart14
+    4300030: Sweep_MeshPart15
+    4300032: Sweep_MeshPart16
+    4300034: Sweep_MeshPart17
+    4300036: Sweep_MeshPart18
+    4300038: Sweep_MeshPart19
+    4300040: Sweep_MeshPart20
+    4300042: Sweep_MeshPart21
+    4300044: Sweep_MeshPart22
+    4300046: Sweep_MeshPart23
+    4300048: Sweep_MeshPart24
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
