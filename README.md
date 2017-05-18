@@ -88,6 +88,30 @@ This project is an attempt to create and establish a strong link between reality
 ### Materials to rent
 - [ ] Beamer
 
+## Git
+- Status
+```
+git status
+```
+
+- add all the files
+git add .
+
+- Commit
+git commit -m "message string"
+
+- Push uploader
+git push
+
+- Clone locally
+git clone git@github.com:spezialis/DiplomaProject.git
+
+- Recuperer ficher
+git pull
+
+- Following steps
+commit -> pull -> push
+
 ## Credits
 By [Stella Speziali](https://stellaspeziali.myportfolio.com/)<br>
 Diploma project<br>
