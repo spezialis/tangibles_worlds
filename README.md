@@ -12,8 +12,10 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Make the animation of the explosion.
 - [ ] ~~Every time the user approach one cube a new environment is loaded.~~
 - [x] ~~Attach the player to the VR camera.~~
-- [ ] When the user put his hand inside a cube the world inside explode out
-- [ ] Improve the scripts for the serial communication between Unity and Arduino.
+- [x] When the user put his hand inside a cube the world is revealed
+	- [x] Clippin Plane
+	- [ ] Improve it by adding some light animation
+- [x] Improve the scripts for the serial communication between Unity and Arduino.
 - [ ] A lot of more stuff in the codes
 
 #### Some visuals
@@ -80,36 +82,48 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Glue
 - [ ] [Jelly pearls](http://lqp-p-imgs.s3-ap-south-1.amazonaws.com/faceview/jh/ea/b5i/affimgs/az-large-184097.jpg)
 - [ ] Silicone
-- [ ] Black plexiglass
-- [ ] Nice wood for the support of Oculus sensors
-- [ ] For a table
-- [ ] Electronics components
+- [ ] 3x black plexiglass boxes 1000x350x350mm with a hole of Ø 140mm on the top
+- [ ] 2x support for the Oculus sensors
+	- [ ] 2x aluminum pole of Ø 8mm
+	- [ ] 2x aluminum plates of Ø 110mm
+	- [ ] 2x female tripod screw
+- [ ] Electronic wire
 
 ### Materials to rent
 - [ ] Beamer
 
-## Git
+## Git from Terminal
 - Status
 ```
 git status
 ```
 
 - add all the files
+```
 git add .
+```
 
 - Commit
+```
 git commit -m "message string"
+```
 
 - Push uploader
+```
 git push
+```
 
 - Clone locally
+```
 git clone git@github.com:spezialis/DiplomaProject.git
+```
 
 - Recuperer ficher
+```
 git pull
+```
 
-- Following steps
+- Following steps:
 commit -> pull -> push
 
 ## Credits
@@ -120,5 +134,3 @@ Assisted by Tibor Udvari, David Roulin<br>
 ECAL/Bachelor Media & Interaction Design<br>
 University of Art & Design, Lausanne 2017<br>
 [www.ecal.ch](www.ecal.ch)
-
-Hello
