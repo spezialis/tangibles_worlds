@@ -70,24 +70,33 @@ This project is an attempt to create and establish a strong link between reality
 	- [ ] Mini vibrating motors.
 
 #### Setup draf
+	- Boxes attached to the celing
+![Alt text](Readme_data/Images/Setup_1.jpg)
+	- Boxes on the floor with a support
+	- Boxes
 ![Alt text](Readme_data/Images/Setup.jpg)
-- [ ] Draw some others setup.
 
 ## Planning manufacturing steps
-- [x] 3x boxes prototyped
+![Alt text](Readme_data/Images/Setup_pieces_2D-01.jpg)
+- [x] 3x plexi boxes
 ![Alt text](Readme_data/Photos/IMG_20170510_173006.jpg)
 - [ ] build the finals object/s for the diploma that mean cuts, assembly and painting. [I'm still don't have any idea of the final form.]
+- [ ] build the support for the Oculus sensors
+![Alt text](Readme_data/Images/Setup_pieces_2D-01.jpg)
 
 ### Materials to buy
-- [ ] Glue
+- [x] Glue
 - [ ] [Jelly pearls](http://lqp-p-imgs.s3-ap-south-1.amazonaws.com/faceview/jh/ea/b5i/affimgs/az-large-184097.jpg)
-- [ ] Silicone
+- [x] Silicone
 - [ ] 3x black plexiglass boxes 1000x350x350mm with a hole of Ø 140mm on the top
 - [ ] 2x support for the Oculus sensors
 	- [ ] 2x aluminum pole of Ø 8mm
 	- [ ] 2x aluminum plates of Ø 110mm
 	- [ ] 2x female tripod screw
 - [ ] Electronic wire
+
+## Setup spot propositions
+On the CV openspace or on the AV expositions space but will depend on the setup.
 
 ### Materials to rent
 - [ ] Beamer
@@ -124,7 +133,7 @@ git pull
 ```
 
 - Following steps:
-commit -> pull -> push
+pull -> add -> commit -> push
 
 ## Credits
 By [Stella Speziali](https://stellaspeziali.myportfolio.com/)<br>
