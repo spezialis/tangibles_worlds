@@ -21,12 +21,9 @@ This project is an attempt to create and establish a strong link between reality
 #### Some visuals
 - [ ] Create a storyboard for my virtual universe
 ![Alt text](Readme_data/Images/Test_scene.png)
-![Alt text](Readme_data/Images/Test_scene1.png)
-![Alt text](Readme_data/Images/Screen_Shot_WebVR_boxes.png)
 
 ### Arduino
-- [ ] Calibrate the 3D capacitive sensing controller, here the [values](https://docs.google.com/spreadsheets/d/1_88lRJ6wW6rSmD63nVG9YeYhz5aiGTSd5Py3lijk0ns/edit#gid=2112700507) I get.
-/IMG_20170510_173310.jpg
+- [ ] Calibrate the 3D capacitive sensing controller, here the [values](https://docs.google.com/spreadsheets/d/1_88lRJ6wW6rSmD63nVG9YeYhz5aiGTSd5Py3lijk0ns/edit#gid=2112700507) I get. ![Alt text](Readme_data/Photos/IMG_20170510_173310.jpg)
 - [x] [VL6180X](https://www.adafruit.com/product/3316) Time of Flight distance sensor prototyped, [Video](http://stellaspeziali.ch/diploma_project_doc/Time_of_Flight%20distance_sensor.mp4) of the test.
 - [x] Photocells and optic fibre [I Need to document this].
 - [x] FlexSensors.
@@ -60,29 +57,27 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] others
 
 #### 3. Wires
-![Alt text](Readme_data/Photos/IMG_20170510_173111.jpg)
+![Alt text](Readme_data/Photos/IMG_20170512_183452.jpg)
 - [x] Create a metallic cube
 - [x] Put some normal wires
-![Alt text](Readme_data/Photos/IMG_20170512_183452.jpg)
-- [ ] Put some conductive wire
-- [ ] Make the lines move with:
+- [x] Put some conductive wire
+- [ ] ~~Make the lines move with:
 	- [ ] Shape-memory alloy or
-	- [ ] Mini vibrating motors.
+	- [ ] Mini vibrating motors.~~
 
 #### Setup draf
-	- Boxes attached to the celing
+- Boxes attached to the celing
 ![Alt text](Readme_data/Images/Setup_1.jpg)
-	- Boxes on the floor with a support
-	- Boxes
-![Alt text](Readme_data/Images/Setup.jpg)
+- Boxes on the floor with a support
+- Boxes
+![Alt text](Readme_data/Images/Setup.png)
 
 ## Planning manufacturing steps
 ![Alt text](Readme_data/Images/Setup_pieces_2D-01.jpg)
 - [x] 3x plexi boxes
-![Alt text](Readme_data/Photos/IMG_20170510_173006.jpg)
 - [ ] build the finals object/s for the diploma that mean cuts, assembly and painting. [I'm still don't have any idea of the final form.]
 - [ ] build the support for the Oculus sensors
-![Alt text](Readme_data/Images/Setup_pieces_2D-01.jpg)
+![Alt text](Readme_data/Images/Setup_pieces_2D-02.jpg)
 
 ### Materials to buy
 - [x] Glue
