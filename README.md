@@ -1,5 +1,5 @@
 # Diploma project
-This project is an attempt to create and establish a strong link between reality and Virtual Reality. In a way that reflect how to manipulate the reality and influence the virtual world and vice versa.
+This project is an attempt to create and establish a strong link between reality and Virtual Reality. In a way the project reflect how to manipulate the reality and influence the virtual world and vice versa. I'm trying to explore what it means to touch some strange materials without seeing our hands and see something happening in a virtual world.
 
 ## Moodboard
 ![Alt text](Readme_data/Moodboard/Moodboard_Page_07.png)
@@ -12,14 +12,14 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Make the animation of the explosion.
 - [ ] ~~Every time the user approach one cube a new environment is loaded.~~
 - [x] ~~Attach the player to the VR camera.~~
-- [x] When the user put his hand inside a cube the world is revealed
+- [x] When the user put his hand inside a cube the world is revealed:
 	- [x] Clippin Plane
 	- [ ] Improve it by adding some light animation
 - [x] Improve the scripts for the serial communication between Unity and Arduino.
-- [ ] A lot of more stuff in the codes
+- [ ] A lot of more stuff in the codes.
 
 #### Some visuals
-- [ ] Create a storyboard for my virtual universe
+- [ ] Create a storyboard for my virtual universe.
 ![Alt text](Readme_data/Images/Test_scene.png)
 
 ### Arduino
@@ -33,13 +33,13 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Put everything together.
 
 #### 1. Bubble
-- [x] Create a 3D model
+- [x] Create a 3D model.
 ![Alt text](Readme_data/Images/Negative_mold.png)
 ![Alt text](Readme_data/Images/Bubble_2D.png)
 ![Alt text](Readme_data/Images/Bubble_all.png)
-- [x] CNC fabrication
+- [x] CNC fabrication.
 ![Alt text](Readme_data/Photos/IMG_20170511_193611.jpg)
-- [x] Mix conductive fibers and conductive ink with the silicone
+- [x] Mix conductive fibers and conductive ink with the silicone.
 ![Alt text](Readme_data/Photos/IMG_20170517_123601.jpg)
 - [ ] Silicone mold x4
 - [ ] Fill the mold with:
@@ -47,54 +47,63 @@ This project is an attempt to create and establish a strong link between reality
 	- [ ] [Pearl clay](https://s-media-cache-ak0.pinimg.com/originals/c7/f3/d3/c7f3d376586a34ae77c89879f5f09bfa.jpg) or
 	- [ ] other materials.
 
+**Bubble Virtual Universe:**
+
 #### 2. Pics
 ![Alt text](Readme_data/Photos/IMG_20170510_173149.jpg)
 - [ ] Create a better prototype using other elements like:
-- [ ] brush hairs
-- [ ] paper
-- [ ] tissue
-- [ ] neoprene
-- [ ] others
+	- [ ] brush hairs
+	- [ ] paper
+	- [ ] tissue
+	- [ ] neoprene
+	- [ ] others.
 
 #### 3. Wires
 ![Alt text](Readme_data/Photos/IMG_20170512_183452.jpg)
-- [x] Create a metallic cube
-- [x] Put some normal wires
-- [x] Put some conductive wire
-- [ ] ~~Make the lines move with:
-	- [ ] Shape-memory alloy or
-	- [ ] Mini vibrating motors.~~
+- [x] Create a metallic cube.
+- [x] Put some normal wires.
+- [x] Put some elastic wire.
+- [x] Put some conductive wire.
+- [ ] ~~Make the lines move with:~~
+	- [ ] ~~Shape-memory alloy or~~
+	- [ ] ~~Mini vibrating motors.~~
+
+**Wire Virtual Universe:**
+![Alt text](Readme_data/Images/Wire_landscape_test_plan.png)
+![Alt text](Readme_data/Images/Wire_landscape_test_1.png)
+![Alt text](Readme_data/Images/Wire_landscape_test_2.png)
+![Alt text](Readme_data/Images/Wire_landscape_test_box.png)
 
 #### Setup draf
-- Boxes attached to the celing
+- Boxes attached to the ceiling.
 ![Alt text](Readme_data/Images/Setup_1.jpg)
-- Boxes on the floor with a support
-- Boxes
+- Boxes on the floor with a support (The same model as the "Boxes attached to the ceiling" but on the floor).
+- Boxes like some pedestals.
 ![Alt text](Readme_data/Images/Setup.png)
 
-## Planning manufacturing steps
+## Manufacturing planning
 ![Alt text](Readme_data/Images/Setup_pieces_2D-01.jpg)
-- [x] 3x plexi boxes
-- [ ] build the finals object/s for the diploma that mean cuts, assembly and painting. [I'm still don't have any idea of the final form.]
-- [ ] build the support for the Oculus sensors
+- [ ] 3x plexiglass boxes.
+- [ ] build the finals object/s for the diploma that mean cuts, assembly and painting. (I'm still don't have any idea of the final form).
+- [ ] build the support for the Oculus sensors.
 ![Alt text](Readme_data/Images/Setup_pieces_2D-02.jpg)
 
 ### Materials to buy
-- [x] Glue
-- [ ] [Jelly pearls](http://lqp-p-imgs.s3-ap-south-1.amazonaws.com/faceview/jh/ea/b5i/affimgs/az-large-184097.jpg)
-- [x] Silicone
-- [ ] 3x black plexiglass boxes 1000x350x350mm with a hole of Ø 140mm on the top
-- [ ] 2x support for the Oculus sensors
-	- [ ] 2x aluminum pole of Ø 8mm
-	- [ ] 2x aluminum plates of Ø 110mm
-	- [ ] 2x female tripod screw
-- [ ] Electronic wire
+- [x] Glue.
+- [ ] [Jelly pearls](http://lqp-p-imgs.s3-ap-south-1.amazonaws.com/faceview/jh/ea/b5i/affimgs/az-large-184097.jpg).
+- [x] Silicone.
+- [ ] 3x black plexiglass boxes 1000x350x350mm with a hole of Ø 140mm on the top.
+- [ ] 2x support for the Oculus sensors:
+	- [ ] 2x aluminum pole of Ø 8mm,
+	- [ ] 2x aluminum plates of Ø 110mm,
+	- [ ] 2x female tripod screw.
+- [ ] Electronic wire.
 
 ## Setup spot propositions
 On the CV openspace or on the AV expositions space but will depend on the setup.
 
 ### Materials to rent
-- [ ] Beamer
+- [ ] Beamer.
 
 ## Git from Terminal
 - Status
