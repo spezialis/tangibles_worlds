@@ -14,7 +14,7 @@ public class DisplayWorld : MonoBehaviour {
 	Vector3 endScale = new Vector3(35, 35, 35);
 
 	public float scaleDuration;
-	public bool scaleWorld;
+//	public bool scaleWorld;
 
 	// Use this for initialization
 	void Start () {
@@ -30,12 +30,12 @@ public class DisplayWorld : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (scaleWorld) {
+//		if (scaleWorld) {
 			world.transform.DOScale (endScale, scaleDuration);
-		}
+//		}
 
-		if (!scaleWorld) {
-			world.transform.DOScale (startScale, 0.5f);
-		}
+//		if (!scaleWorld) {
+//			world.transform.DOScale (startScale, 0.5f);
+//		}
 	}
 }
