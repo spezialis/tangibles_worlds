@@ -27,10 +27,10 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Arduino_sensors_connections.png)
 ![Alt text](Readme_data/Images/Arduino_sensors_connections_scheme.png)
 
-#### 1. Bubble
+## 1. Bubble
 **Materials:**
 - [x] Mold
-![Alt text](Readme_data/Photos/IMG_20170510_173111.jpg)
+![Alt text](Readme_data/Photos/IMG_20170511_193611.jpg)
 - [ ] 4 Silicone mold with 4 flex sensors.
 - [ ] Fill the mold with:
 	- [ ] [Pearl clay](https://s-media-cache-ak0.pinimg.com/originals/c7/f3/d3/c7f3d376586a34ae77c89879f5f09bfa.jpg) or
@@ -51,7 +51,7 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] 4 47kΩ resistors
 - [ ] Wires from the other boxes
 
-#### 2. Pics
+## 2. Pics
 **Materials:**
 - [ ] Brush hairs
 - [ ] Brush hairs support MDF
@@ -68,7 +68,7 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] 4 10kΩ resistors
 - [ ] LED
 
-#### 3. Wires
+## 3. Wires
 **Materials:**
 - [ ] Wire support Steel
 ![Alt text](Readme_data/Images/Wire_support.png)
@@ -90,7 +90,7 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Plexi_box_2D.png)
 - [ ] Build the support for the Oculus sensors.
 ![Alt text](Readme_data/Images/Setup_pieces_2D-02.jpg)
-- [ ] 3 Tubes with base and holes for cables.
+- [ ] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/) with a base and some holes for the cables.
 
 ### Materials to buy
 ...
