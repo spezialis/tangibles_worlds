@@ -20,7 +20,7 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Arduino mega.
 - [x] 4 Capacitive wire + 4 10kΩ resistors + 4 270kΩ resistors.
 - [x] 4 Photocells and optic fibre + 4 10kΩ resistors.
-- [ ] 1 LED stripe.
+- [x] 1 LED stripe.
 - [x] 4 Flex sensors + 4 47kΩ resistors.
 - [ ] 3 Distance sensors Sharp GP2Y0A21YK0F 5 V/DC (10-80cm).
 - [ ] Put everything together.
@@ -53,10 +53,11 @@ This project is an attempt to create and establish a strong link between reality
 
 ## 2. Pics
 **Materials:**
-- [ ] Brush hairs
-- [ ] Brush hairs support MDF
+- [x] Brush hairs
+- [x] Brush hairs support MDF
 ![Alt text](Readme_data/Images/Pics_support.png)
-- [ ] Base MDF
+- [x] 4 MDF pieces to connect the support and the base
+- [x] Base MDF
 	- [ ] Make a hole for the cables
 ![Alt text](Readme_data/Images/Pics_base.png)
 
@@ -74,7 +75,8 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Wire_support.png)
 - [ ] Put some elastic wire
 - [ ] Put some conductive wire
-- [ ] Base MDF
+- [x] Base MDF
+	- [ ] Make a hole for the cables
 ![Alt text](Readme_data/Images/Wire_base.png)
 
 **Virtual Universe:**
@@ -90,7 +92,9 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Plexi_box_2D.png)
 - [ ] Build the support for the Oculus sensors.
 ![Alt text](Readme_data/Images/Setup_pieces_2D-02.jpg)
-- [ ] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/) with a base and some holes for the cables.
+- [ ] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/)
+	- [x] holes for the cables.
+	- [ ] base
 
 ### Materials to buy
 ...
