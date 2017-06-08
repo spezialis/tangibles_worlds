@@ -17,12 +17,12 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Test_scene.png)
 
 ### Arduino sensors
-- [ ] Arduino mega.
+- [x] Arduino mega.
 - [x] 4 Capacitive wire + 4 10kΩ resistors + 4 270kΩ resistors.
 - [x] 4 Photocells and optic fibre + 4 10kΩ resistors.
 - [x] 1 LED stripe.
 - [x] 4 Flex sensors + 4 47kΩ resistors.
-- [ ] 3 Distance sensors Sharp GP2Y0A21YK0F 5 V/DC (10-80cm).
+- [x] 3 Distance sensors Sharp GP2Y0A21YK0F 5 V/DC (10-80cm).
 - [ ] Put everything together.
 ![Alt text](Readme_data/Images/Arduino_sensors_connections.png)
 ![Alt text](Readme_data/Images/Arduino_sensors_connections_scheme.png)
@@ -57,6 +57,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Brush hairs support MDF
 ![Alt text](Readme_data/Images/Pics_support.png)
 - [x] 4 MDF pieces to connect the support and the base
+- [x] Fiber hairs
 - [x] Base MDF
 	- [ ] Make a hole for the cables
 ![Alt text](Readme_data/Images/Pics_base.png)
