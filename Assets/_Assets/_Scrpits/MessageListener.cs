@@ -17,7 +17,7 @@ using System.Collections.Generic;
  */
 public class MessageListener : MonoBehaviour {
 	public static Dictionary<string, int> pins = new Dictionary<string, int>();
-	string[] pinNames = {"pin8", "pin9", "pin10", "pin11", "scl"};
+	string[] pinNames = {"pin8", "pin9", "pin10", "pin11"};
 	
 	// Invoked when a line of data is received from the serial device.
 	void OnMessageArrived(string msg) {
