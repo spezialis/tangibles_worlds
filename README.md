@@ -12,6 +12,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Animation of the explosion of the world.
 - [x] When the user put his hand inside a cube the world is revealed
 - [x] Improve the scripts for the serial communication between Unity and Arduino.
+- [ ] Animate each world
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
@@ -37,10 +38,11 @@ This project is an attempt to create and establish a strong link between reality
 	- [ ] Sagex pearls.
 - [ ] Mold support MDF
 ![Alt text](Readme_data/Images/Bubble_mold_support.png)
-- [ ] Base MDF
-	- [ ] Make a hole for the cables
-	- [ ] 4 MDF pieces to connect the mold support and the base
+- [x] Base MDF
+	- [x] Make a hole for the cables
+	- [x] 4 MDF pieces to connect the mold support and the base
 ![Alt text](Readme_data/Images/Bubble_base.png)
+- [ ] Buy somo Rhodorsil Additif 11013 from [Silitech](http://www.silitech.ch/f/index.asp)
 
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Bubble_world.png)
@@ -59,7 +61,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] 4 MDF pieces to connect the support and the base
 - [x] Fiber hairs
 - [x] Base MDF
-	- [ ] Make a hole for the cables
+	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Pics_base.png)
 
 **Virtual Universe:**
@@ -68,16 +70,16 @@ This project is an attempt to create and establish a strong link between reality
 **Sensors:**
 - [ ] 4 Photocells
 - [ ] 4 10kΩ resistors
-- [ ] LED
+- [x] [LED](https://www.google.ch/search?q=st%C3%B6tta+ikea&tbm=isch&imgil=hdbnV116b7ZRTM%253A%253BKCulAlFXAJDd7M%253Bhttp%25253A%25252F%25252Fwww.ikea.com%25252Fch%25252Ffr%25252Fcatalog%25252Fproducts%25252F50277133%25252F&source=iu&pf=m&fir=hdbnV116b7ZRTM%253A%252CKCulAlFXAJDd7M%252C_&usg=__WQGrO_8pHb7VvvWq1aFQA2HoJL4%3D&biw=1106&bih=663&ved=0ahUKEwiC-ZL7kbvUAhWBNBQKHdM3CZUQyjcITw&ei=NAVAWYIPgelQ0--kqAk#imgrc=hdbnV116b7ZRTM:)
 
 ## 3. Wires
 **Materials:**
-- [ ] Wire support Steel
+- [x] Wire support Steel
 ![Alt text](Readme_data/Images/Wire_support.png)
-- [ ] Put some elastic wire
+- [x] Put some elastic wire
 - [ ] Put some conductive wire
 - [x] Base MDF
-	- [ ] Make a hole for the cables
+	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Wire_base.png)
 
 **Virtual Universe:**
@@ -89,19 +91,16 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] 4 270kΩ resistors
 
 ## Manufacturing planning
-- [ ] 3 plexiglass boxes.
+- [x] 3 plexiglass boxes.
 ![Alt text](Readme_data/Images/Plexi_box_2D.png)
 - [ ] Build the support for the Oculus sensors.
 ![Alt text](Readme_data/Images/Setup_pieces_2D-02.jpg)
-- [ ] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/)
+- [x] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/)
 	- [x] holes for the cables.
-	- [ ] base
+	- [x] base
 
 ### Materials to buy
 ...
-
-### Materials to rent
-- [ ] Beamer.
 
 ## Setup
 The 3 boxes will be over a special support.
