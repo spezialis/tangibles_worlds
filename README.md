@@ -9,10 +9,11 @@ This project is an attempt to create and establish a strong link between reality
 ## TODO | DONE
 ### Unity
 - [ ] Create 3 difference environment for each box.
-- [x] Animation of the explosion of the world.
 - [x] When the user put his hand inside a cube the world is revealed
 - [x] Improve the scripts for the serial communication between Unity and Arduino.
-- [ ] Animate each world
+- [ ] Think about what could happen if someone put his hands in two differents box.
+- [ ] Animate each world.
+- [ ] Bunch of others things and scripts.
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
@@ -48,9 +49,9 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Bubble_world.png)
 
 **Sensors:**
-- [ ] 1 Arduino mega
-- [ ] 4 Flex
-- [ ] 4 47kΩ resistors
+- [x] 1 Arduino mega
+- [x] 4 Flex
+- [x] 4 47kΩ resistors
 - [ ] Wires from the other boxes
 
 ## 2. Pics
@@ -68,8 +69,8 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Pics_world.png)
 
 **Sensors:**
-- [ ] 4 Photocells
-- [ ] 4 10kΩ resistors
+- [x] 4 Photocells
+- [x] 4 10kΩ resistors
 - [x] [LED](https://www.google.ch/search?q=st%C3%B6tta+ikea&tbm=isch&imgil=hdbnV116b7ZRTM%253A%253BKCulAlFXAJDd7M%253Bhttp%25253A%25252F%25252Fwww.ikea.com%25252Fch%25252Ffr%25252Fcatalog%25252Fproducts%25252F50277133%25252F&source=iu&pf=m&fir=hdbnV116b7ZRTM%253A%252CKCulAlFXAJDd7M%252C_&usg=__WQGrO_8pHb7VvvWq1aFQA2HoJL4%3D&biw=1106&bih=663&ved=0ahUKEwiC-ZL7kbvUAhWBNBQKHdM3CZUQyjcITw&ei=NAVAWYIPgelQ0--kqAk#imgrc=hdbnV116b7ZRTM:)
 
 ## 3. Wires
@@ -98,6 +99,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/)
 	- [x] holes for the cables.
 	- [x] base
+- [ ] Build a box to hide the pc
 
 ### Materials to buy
 ...

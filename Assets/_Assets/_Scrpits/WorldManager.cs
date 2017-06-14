@@ -51,10 +51,6 @@ public class WorldManager : MonoBehaviour {
 		// Please override me in a child class
 	}
 
-	void OnEnable() {
-		// test // SetWallState (1, true);
-	}
-
 	void Start () {
 		
 	}
