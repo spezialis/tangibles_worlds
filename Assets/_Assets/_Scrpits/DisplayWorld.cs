@@ -21,9 +21,6 @@ public class DisplayWorld : MonoBehaviour {
 
 		// TODO: transform world scale when someone put his hand inside a box
 		// Active the world
-		world.SetActive (true);
-
-		world.GetComponent<Transform>().localScale = startScale;
 
 	}
 	
@@ -31,6 +28,11 @@ public class DisplayWorld : MonoBehaviour {
 	void Update () {
 
 //		if (scaleWorld) {
+
+		world.SetActive (true);
+
+		world.GetComponent<Transform>().localScale = startScale;
+
 			world.transform.DOScale (endScale, scaleDuration);
 //		}
 

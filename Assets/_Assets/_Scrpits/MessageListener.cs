@@ -16,17 +16,21 @@ using System.Collections.Generic;
  *  - OnConnectionEvent
  */
 public class MessageListener : MonoBehaviour {
+	
 	public static Dictionary<string, int> pins = new Dictionary<string, int>();
-	string[] pinNames = {"pin8", "pin9", "pin10", "pin11"};
+	string[] pinNames = {"pinA0", "pinA1", "pinA2", "pinA3", "pinA4", "pinA5", "pinA6"};
+
+	public string messageIn;
 	
 	// Invoked when a line of data is received from the serial device.
 	void OnMessageArrived(string msg) {
 		//Debug.Log("Message arrived: " + msg);
+		messageIn = msg;
 
 		string[] msgs = msg.Split('\t');
 		//Debug.Log (msgs[0]);
 
-		for(int i=0; (i<msgs.Length && i<pinNames.Length); i++) {
+		for(int i = 0; (i < msgs.Length && i < pinNames.Length); i++) {
 			if (pins.ContainsKey (pinNames [i])) {
 				pins [pinNames [i]] = int.Parse (msgs [i]);
 			} else {

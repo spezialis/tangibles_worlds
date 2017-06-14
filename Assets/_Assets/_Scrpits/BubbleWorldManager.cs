@@ -22,37 +22,37 @@ public class BubbleWorldManager : WorldManager {
 //		instance.SetWallState (4, active);
 //	}
 
-	public Animation wall1_bubbles;
+	public Animation wallBubbles1;
 	public MegaPointCache wall1_surface;
 	public AudioSource wall1_sound;
 
-	public Animation wall2_bubbles;
+	public Animation wallBubbles2;
 	public MegaPointCache wall2_surface;
 	// TODO public AudioSource wall2_sound;
 
-	public Animation wall3_bubbles;
+	public Animation wallBubbles3;
 	public MegaPointCache wall3_surface;
 
-	public Animation wall4_bubbles;
+	public Animation wallBubbles4;
 	public MegaPointCache wall4_surface;
 
 	public override void SetWallState( int index, bool active ) {
 		switch (index) {
 		case 1:
-			wall1_bubbles.enabled = active;
+			wallBubbles1.enabled = active;
 			wall1_surface.animated = active;
 			wall1_sound.enabled = active;
 			break;
 		case 2:
-			wall2_bubbles.enabled = active;
+			wallBubbles2.enabled = active;
 			wall2_surface.animated = active;
 			break;
 		case 3:
-			wall3_bubbles.enabled = active;
+			wallBubbles3.enabled = active;
 			wall3_surface.animated = active;
 			break;
 		case 4:
-			wall4_bubbles.enabled = active;
+			wallBubbles4.enabled = active;
 			wall4_surface.animated = active;
 			break;
 		default:

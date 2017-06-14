@@ -15,22 +15,23 @@ public class WorldManager : MonoBehaviour {
 	public int threshold3;
 	public int threshold4;
 
-	public bool ArduinoUpdateForPin( string whichPin, int threshold, bool inferior ) {
+	public bool ArduinoUpdateForPin_isPinValueInferiorToThreshold( string whichPin, int threshold ) {
+		return ArduinoUpdateForPin( whichPin, threshold, false);
+	}
+
+	public bool ArduinoUpdateForPin_isPinValueSuperiorToThreshold( string whichPin, int threshold ) {
+		return ArduinoUpdateForPin( whichPin, threshold, true);
+	}
+
+	public bool ArduinoUpdateForPin( string whichPin, int threshold, bool superior ) {
 		if (MessageListener.pins.ContainsKey (whichPin)) {
 			int pinValue = MessageListener.pins [whichPin];
-			if (inferior) {
-				if (pinValue > threshold) {
-					return true;
-				} else if (pinValue < threshold) {
-					return false;
-				}
+			if (superior) {
+				return pinValue > threshold;
 			} else {
-				if (pinValue < threshold) {
-					return true;
-				} else if (pinValue < threshold) {
-					return false;
-				}
+				return pinValue < threshold;
 			}
+			//Debug.Log ( whichPin + " exists");
 		} else {
 			Debug.LogWarning ( whichPin + " does not exist");
 			return false;
