@@ -1,4 +1,8 @@
-# Diploma project
+# Tangibles Worlds
+Virtual reality allows us to disconnect from reality to immerse ourselves in the unreal. But what happens when this virtual reality is also tangible?
+
+This project offers an experience of sensory immersion, the tangibility of which leads us beyond a simple visual observation. We intervene in the world by touching it. The tactile experience is fundamental because becomes a catalyst, who tries to change, all the facets of the virtual reality in which we are placed. What we perceive from the outside, does not represent what we live inside the virtual world.
+
 This project is an attempt to create and establish a strong link between reality and Virtual Reality. In a way the project reflect how to manipulate the reality and influence the virtual world and vice versa. I'm trying to explore what it means to touch some strange materials without seeing our hands and see something happening in a virtual world.
 
 ## Moodboard
@@ -147,7 +151,7 @@ pull -> add -> commit -> push
 
 ## Credits
 By [Stella Speziali](https://stellaspeziali.myportfolio.com/)<br>
-Diploma project<br>
+Tangibles Worlds<br>
 Lead by Alain Bellet, Gaël Hugo, Cyril Diagne, Christophe Guignard<br>
 Assisted by Tibor Udvari, David Roulin<br>
 ECAL/Bachelor Media & Interaction Design<br>
