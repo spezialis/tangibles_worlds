@@ -104,6 +104,8 @@ This project is an attempt to create and establish a strong link between reality
 	- [x] holes for the cables.
 	- [x] base
 - [ ] Build a box to hide the pc
+- [ ] Cut 3 pads for the plexiglass holes on the digital cutter
+![Alt text](Readme_data/Images/Digital_cutter_pads.png)
 
 ### Materials to buy
 ...
