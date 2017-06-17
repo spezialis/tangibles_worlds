@@ -3,7 +3,7 @@
     "^(node_modules|bower_components|\\.imdone|target|build|dist|logs)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
   "watcher": true,
-  "keepEmptyPriority": false,
+  "keepEmptyPriority": true,
   "code": {
     "include_lists": [
       "TODO",
@@ -41,5 +41,10 @@
     "pedantic": false,
     "smartLists": true,
     "langPrefix": "language-"
+  },
+  "sync": {
+    "id": "59459782b836a61a48b5ff18",
+    "name": "DiplomaProject",
+    "useImdoneioForPriority": true
   }
 }
