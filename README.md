@@ -2,6 +2,7 @@
 Virtual reality allows us to disconnect from reality to immerse ourselves in the unreal. But what happens when this virtual reality is also tangible?
 
 This project offers an experience of sensory immersion, the tangibility of which leads us beyond a simple visual observation. We intervene in the world by touching it. The tactile experience is fundamental because becomes a catalyst, who tries to change, all the facets of the virtual reality in which we are placed. What we perceive from the outside, does not represent what we live inside the virtual world.
+![Alt text](Readme_data/Photos/Tangibles-Worlds_ECAL.jpg)
 
 This project is an attempt to create and establish a strong link between reality and Virtual Reality. In a way the project reflect how to manipulate the reality and influence the virtual world and vice versa. I'm trying to explore what it means to touch some strange materials without seeing our hands and see something happening in a virtual world.
 
@@ -12,12 +13,20 @@ This project is an attempt to create and establish a strong link between reality
 
 ## TODO | DONE
 ### Unity
-- [ ] Create 3 difference environment for each box.
+- [x] Create 3 difference environment for each box.
+	- [ ] Bake textures
+	- [ ] Bake animations from Cinema 4D to Unity
 - [x] When the user put his hand inside a cube the world is revealed
 - [x] Improve the scripts for the serial communication between Unity and Arduino.
 - [ ] Think about what could happen if someone put his hands in two differents box.
 - [ ] Animate each world.
-- [ ] Bunch of others things and scripts.
+- [ ] Lights.
+- [ ] End of the experience.
+	- [ ] Name of the project and credits.
+	- [ ] Restart the experience each time some one remove the VR headset.
+- [ ] Bunch of others things on the scripts:
+	- [ ] Animate lights.
+	- [ ] Move them around.
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
@@ -41,13 +50,13 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Fill the mold with:
 	- [ ] [Pearl clay](https://s-media-cache-ak0.pinimg.com/originals/c7/f3/d3/c7f3d376586a34ae77c89879f5f09bfa.jpg) or
 	- [ ] Sagex pearls.
-- [ ] Mold support MDF
+- [x] Mold support MDF
 ![Alt text](Readme_data/Images/Bubble_mold_support.png)
 - [x] Base MDF
 	- [x] Make a hole for the cables
 	- [x] 4 MDF pieces to connect the mold support and the base
 ![Alt text](Readme_data/Images/Bubble_base.png)
-- [ ] Buy somo Rhodorsil Additif 11013 from [Silitech](http://www.silitech.ch/f/index.asp)
+- [x] Buy somo Rhodorsil Additif 11013 from [Silitech](http://www.silitech.ch/f/index.asp)
 
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Bubble_world.png)
@@ -68,6 +77,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Base MDF
 	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Pics_base.png)
+- [ ] Wires from the arduino
 
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Pics_world.png)
@@ -86,6 +96,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Base MDF
 	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Wire_base.png)
+- [ ] Wires from the arduino
 
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Wire_world.png)
@@ -107,15 +118,17 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Cut 3 pads for the plexiglass holes on the digital cutter
 ![Alt text](Readme_data/Images/Digital_cutter_pads.png)
 
-### Materials to buy
-...
-
 ## Setup
 The 3 boxes will be over a special support.
 ![Alt text](Readme_data/Images/Setup_pieces_2D-01.jpg)
 
 ### Setup spot propositions
-On the CV openspace or on the AV expositions space but will depend on the setup.
+On the CV openspace.
+
+## Useful links:
+**Baking Animations**
+(Bake Nurbs into PLA Cinema 4D Tutorial)[https://vimeo.com/88822458]<br>
+(Baking Animated Deformers or Effectors with Point Cache Tag)[https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag]
 
 ## Git from Terminal
 - Status
