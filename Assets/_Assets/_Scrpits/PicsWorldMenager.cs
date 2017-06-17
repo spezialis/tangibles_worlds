@@ -35,9 +35,9 @@ public class PicsWorldMenager : WorldManager {
 		instance = this;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	// Don't override this update
+//	void Update () {
+//		
+//	}
 }
 

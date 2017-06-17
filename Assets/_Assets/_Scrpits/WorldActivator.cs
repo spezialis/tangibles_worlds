@@ -43,7 +43,7 @@ public class WorldActivator : MonoBehaviour {
 	void ActivateWorld() {
 		if (world) {
 			
-			Debug.Log ("I'm going to activate");
+//			Debug.Log ("I'm going to activate");
 
 			// first check if we have to cancel activation tween
 			if (isThereAScalingPlaying()) {
@@ -67,7 +67,7 @@ public class WorldActivator : MonoBehaviour {
 	void DisableWorld() {
 		if (world) {
 
-			Debug.Log ("I'm going to deactivate");
+//			Debug.Log ("I'm going to deactivate");
 
 			// first check if we have to cancel activation tween
 			if (isThereAScalingPlaying()) {
@@ -95,7 +95,7 @@ public class WorldActivator : MonoBehaviour {
 
 		if (currentSensorState) {
 
-			Debug.Log ("Sensor ON - " + whichPinWorldActivation);
+//			Debug.Log ("Sensor ON - " + whichPinWorldActivation);
 
 			if (sensorWasPreviouslyOn) {
 				// currently sensor is ON, previously was ON
@@ -109,7 +109,7 @@ public class WorldActivator : MonoBehaviour {
 
 		} else {
 			
-			Debug.Log ("Sensor OFF - " + whichPinWorldActivation);
+//			Debug.Log ("Sensor OFF - " + whichPinWorldActivation);
 
 			if (sensorWasPreviouslyOn) {
 				// currently sensor is OFF, previously was ON

@@ -5,6 +5,8 @@ using UnityEngine;
 // this class is specified for all the worlds
 public class WorldManager : MonoBehaviour {
 
+	public bool valueIsSuperior;
+
 	public string whichPinWall1;
 	public string whichPinWall2;
 	public string whichPinWall3;
@@ -33,7 +35,7 @@ public class WorldManager : MonoBehaviour {
 			}
 			//Debug.Log ( whichPin + " exists");
 		} else {
-			Debug.LogWarning ( whichPin + " does not exist");
+//			Debug.LogWarning ( whichPin + " does not exist");
 			return false;
 		}
 		return false; // fucking compiler
@@ -41,10 +43,10 @@ public class WorldManager : MonoBehaviour {
 
 	void ArduinoUpdateWalls() {
 		//Debug.Log ("ARDUINO UPDATE");
-		SetWallState(1, ArduinoUpdateForPin (whichPinWall1, threshold1, true));
-		SetWallState(2, ArduinoUpdateForPin (whichPinWall2, threshold2, true));
-		SetWallState(3, ArduinoUpdateForPin (whichPinWall3, threshold3, true));
-		SetWallState(4, ArduinoUpdateForPin (whichPinWall4, threshold4, true));
+		SetWallState(1, ArduinoUpdateForPin (whichPinWall1, threshold1, valueIsSuperior));
+		SetWallState(2, ArduinoUpdateForPin (whichPinWall2, threshold2, valueIsSuperior));
+		SetWallState(3, ArduinoUpdateForPin (whichPinWall3, threshold3, valueIsSuperior));
+		SetWallState(4, ArduinoUpdateForPin (whichPinWall4, threshold4, valueIsSuperior));
 	}
 
 	public virtual void SetWallState (int index, bool active) {

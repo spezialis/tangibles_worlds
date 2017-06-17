@@ -49,6 +49,10 @@ namespace MirzaBeig
                 [Range(0.0f, 1.0f)]
                 public float colourFromParticle = 1.0f;
 
+				public Gradient gradient;
+				public Color startColor;
+				public Color endColor;
+
                 [Range(0.0f, 1.0f)]
                 public float alphaFromParticle = 1.0f;
 
@@ -82,7 +86,7 @@ namespace MirzaBeig
                     particleSystemMainModule = particleSystem.main;
 
                     ParticleSystem.ShapeModule shape = particleSystem.shape;
-                    shape.radius = 0.03f;
+//                    shape.radius = 2.25f;
 
                     _transform = transform;
                 }
@@ -179,8 +183,8 @@ namespace MirzaBeig
 
                                         Color particleColour = particles[i].GetCurrentColor(particleSystem);
 
-                                        Color lineStartColour = Color.LerpUnclamped(lineRendererStartColour, particleColour, colourFromParticle);
-                                        lineStartColour.a = Mathf.LerpUnclamped(lineRendererStartColour.a, particleColour.a, alphaFromParticle);
+//                                        Color lineStartColour = Color.LerpUnclamped(lineRendererStartColour, particleColour, colourFromParticle);
+//                                        lineStartColour.a = Mathf.LerpUnclamped(lineRendererStartColour.a, particleColour.a, alphaFromParticle);
 
                                         float lineStartWidth = Mathf.LerpUnclamped(lineRendererStartWidth, particles[i].GetCurrentSize(particleSystem), widthFromParticle);
 
@@ -213,14 +217,16 @@ namespace MirzaBeig
                                                 lr.SetPosition(0, particles[i].position);
                                                 lr.SetPosition(1, particles[j].position);
 
-                                                lr.startColor = lineStartColour;
+//                                                lr.startColor = lineStartColour;
+												lr.startColor = startColor;
 
                                                 particleColour = particles[j].GetCurrentColor(particleSystem);
 
                                                 Color lineEndColour = Color.LerpUnclamped(lineRendererEndColour, particleColour, colourFromParticle);
                                                 lineEndColour.a = Mathf.LerpUnclamped(lineRendererEndColour.a, particleColour.a, alphaFromParticle);
 
-                                                lr.endColor = lineEndColour;
+//                                                lr.endColor = lineEndColour;
+												lr.endColor = endColor;
 
                                                 float particleWidth = particles[i].GetCurrentSize(particleSystem);
 

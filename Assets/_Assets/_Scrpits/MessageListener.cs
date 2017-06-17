@@ -18,7 +18,7 @@ using System.Collections.Generic;
 public class MessageListener : MonoBehaviour {
 	
 	public static Dictionary<string, int> pins = new Dictionary<string, int>();
-	string[] pinNames = {"pinA0", "pinA1", "pinA2", "pinA3", "pinA4", "pinA5", "pinA6"};
+	string[] pinNames = {"pinA0", "pinA1", "pinA2", "pinA3", "pinA4", "pinA5", "pinA6", "pinA7", "pinA8", "pinA9", "pinA10"};
 
 	public string messageIn;
 	

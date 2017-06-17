@@ -82,7 +82,7 @@ namespace MirzaBeig
                     particleSystemMainModule = particleSystem.main;
 
                     ParticleSystem.ShapeModule shape = particleSystem.shape;
-                    shape.radius = 2.25f;
+//                    shape.radius = 2.25f;
 
                     _transform = transform;
                 }
