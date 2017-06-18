@@ -5,7 +5,6 @@ using UnityEngine;
 public class UseMessage : MonoBehaviour {
 
 	// reference to another scrpit
-	// QUESTION: how to create a reference to this script without the public?
 	public SerialPortCom03 serialPortCom;
 //	SerialPortCom03 serialPortCom;
 
@@ -20,21 +19,21 @@ public class UseMessage : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
 		// DEBUG
 		if (startWorld) {
-			GenerateWorld_1.mustExplode.Invoke();	
+			GenerateWorld_1.mustExplode.Invoke();
 		}
 
 		// Get arduino messages from another script
 		msgIn = serialPortCom.messageIn;
 //		Debug.Log (msgIn);
-		
+
 		if (msgIn != null){
 			// Check if the message isn't empty
 			if (msgIn != "") {
@@ -52,7 +51,7 @@ public class UseMessage : MonoBehaviour {
 				if (value >= 254) {
 					// startWorld = false;
 					GenerateWorld_1.mustUnexplode.Invoke();
-				} 
+				}
 
 				if (value >= 20 && value <= 254) {
 					// startWorld = true;
@@ -63,7 +62,7 @@ public class UseMessage : MonoBehaviour {
 			}
 		}
 	}
-		
+
 	public static float map(float value, float istart, float istop, float ostart, float ostop){
 		return ostart + (ostop - ostart) * ((value - istart) / (istop - istart));
 	}

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundColor : MonoBehaviour {
-	
-	// TODO add a lerp to change the background color when a world is activate id:0
+
+	// TODO add a lerp to change the background color when a world is activate id:0 gh:3
 	Camera camera;
 
 	public GameObject picsWorld;
@@ -22,7 +22,7 @@ public class BackgroundColor : MonoBehaviour {
 	void Start () {
 		camera = GetComponent<Camera>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (picsWorld.activeSelf) {

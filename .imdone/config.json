@@ -17,7 +17,8 @@
       "XXX",
       "IDEA",
       "NOTE",
-      "REVIEW"
+      "REVIEW",
+      "QUESTION"
     ]
   },
   "lists": [
@@ -31,6 +32,10 @@
     },
     {
       "name": "DONE",
+      "hidden": false
+    },
+    {
+      "name": "QUESTION",
       "hidden": false
     }
   ],
@@ -46,5 +51,12 @@
     "id": "59459782b836a61a48b5ff18",
     "name": "DiplomaProject",
     "useImdoneioForPriority": true
+  },
+  "meta": {
+    "gh": {
+      "urlTemplate": "https://github.com/spezialis/DiplomaProject/issues/%s",
+      "titleTemplate": "View github issue %s",
+      "icon": "icon-octoface"
+    }
   }
 }

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using DG.Tweening; 
+using DG.Tweening;
 
 public class MoveLight : MonoBehaviour {
 
-	// TODO proposition: maybe the light could follow the camera rotation, and stay at a specific distance id:4
+	// TODO proposition: maybe the light could follow the camera rotation, and stay at a specific distance id:4 gh:5
 	Light light;
 
 	public float duration;
@@ -58,11 +58,11 @@ public class MoveLight : MonoBehaviour {
 		startColor = targetColor;
 		targetColor = getRandomColor();
 	}
-		
+
 	public int getRandomColor(){
 		return Random.Range(0, (randomColor.Length - 1));
 	}
-		
+
 	void Update () {
 		// Random range with duration
 		float completion = (Time.time - startTime) / duration;
@@ -80,6 +80,6 @@ public class MoveLight : MonoBehaviour {
 
 		if (completion >= 1) {
 			AssignNewTargets ();
-		} 
+		}
 	}
 }

@@ -18,7 +18,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 	public float nbr = 100;
 
 	public GameObject clone;
-//	
+//
 	//public GameObject[] clones;
 
 	public List<GameObject> clones;
@@ -40,7 +40,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 
 	// DONE: make this script work for each zone id:1
 	void Awake(){
-		
+
 		// Reference to antother script
 //		detectZone = boxColZone.GetComponent<DetectZone> ();
 		useMessage = GetComponent<UseMessage>();
@@ -92,7 +92,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 		unexploding = true;
 
 		foreach (GameObject clone in clones) {
-			
+
 			clone.transform.DOMove (Vector3.zero, 1).SetEase (Ease.InExpo).OnComplete(
 				() => {
 					clone.SetActive(false);
@@ -105,14 +105,12 @@ public class GenerateWorld_1 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		// QUESTION: How to place the explosion better?
-
 		//------------- CHECK SENSOR MESSAGE ----------------//
 		//Debug.Log (useMessage.startWorld);
 
 		//------------- CHECK IF PLAYER IS INSIDE A SPECIFIC ZONE ----------------//
 //		Debug.Log (detectZone.playerInZone + " " + detectZone.gameObject.name);
-/*		
+/*
  		if (detectZone.playerInZone == true && explode) {
 			// Active the root
 //			root.SetActive (true);
@@ -142,7 +140,6 @@ public class GenerateWorld_1 : MonoBehaviour {
 /*		if (Input.GetKeyUp (KeyCode.Space)) {
 			foreach (GameObject clone in clones) {
 
-				// QUESTION: why I need always to ad this line of code to place the element randomly?
 //				endPosition = Random.insideUnitSphere * radius;
 				randomPos();
 
@@ -158,7 +155,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 
 	GameObject Spawn() {
 		//"Random.onUnitSphere" Returns a random point on the surface of a sphere with radius 1
-		//		Vector3 position = Random.onUnitSphere * radius + transform.position; 
+		//		Vector3 position = Random.onUnitSphere * radius + transform.position;
 
 		// Instantiate elements
 		GameObject newClone = Instantiate(clone, Vector3.zero, Quaternion.identity) as GameObject;

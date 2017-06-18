@@ -23,7 +23,7 @@ public class GenerateWorld : MonoBehaviour {
 	Vector3 startPosition = new Vector3 (0, 1.5f, 0);
 
 	void Awake(){
-		
+
 	}
 
 	// Use this for initialization
@@ -38,7 +38,7 @@ public class GenerateWorld : MonoBehaviour {
 			clones.Add( Spawn() );
 		}
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
@@ -47,7 +47,6 @@ public class GenerateWorld : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.Space)) {
 			foreach (GameObject clone in clones) {
 
-				// QUESTION: why I need always to ad this line of code to place the element randomly?
 //				endPosition = Random.insideUnitSphere * radius;
 				randomPos();
 
@@ -61,7 +60,7 @@ public class GenerateWorld : MonoBehaviour {
 
 	GameObject Spawn() {
 		//"Random.onUnitSphere" Returns a random point on the surface of a sphere with radius 1
-		//		Vector3 position = Random.onUnitSphere * radius + transform.position; 
+		//		Vector3 position = Random.onUnitSphere * radius + transform.position;
 
 		// Instantiate elements
 		GameObject newClone = Instantiate(clone, Vector3.zero, Quaternion.identity) as GameObject;
@@ -70,7 +69,6 @@ public class GenerateWorld : MonoBehaviour {
 		newClone.transform.localScale = Vector3.one * Random.Range(1f, 3f);
 		newClone.transform.localRotation = Random.rotation;
 
-		// DONE: set the clones as a child of the game object "world" id:8
 		newClone.transform.SetParent(root.transform);
 //		newClone.transform.SetParent(gameObject.transform);
 

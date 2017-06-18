@@ -140,6 +140,9 @@ On the CV openspace.
 **Baking Animations**
 (Bake Nurbs into PLA Cinema 4D Tutorial)[https://vimeo.com/88822458]<br>
 (Baking Animated Deformers or Effectors with Point Cache Tag)[https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag]
+(Shaders)[http://www.shaderslab.com]
+(Cubemap)[http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox]
+(Unity Skyboxes)[http://www.andrewnoske.com/wiki/Unity_-_Skyboxes]
 
 ## Git from Terminal
 - Status
