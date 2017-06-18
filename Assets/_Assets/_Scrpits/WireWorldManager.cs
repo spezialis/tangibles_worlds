@@ -12,7 +12,7 @@ public class WireWorldManager : WorldManager {
 //	public Animation wallWire4;
 
 	// TODO at the end of the project remove the debugAnimateDisplacement id:9
-	public bool debugAnimateDisplacement;
+//	public bool debugAnimateDisplacement;
 	public MegaDisplace cut;
 	public MegaDisplace cut1;
 	public MegaDisplace cut2;
@@ -21,7 +21,7 @@ public class WireWorldManager : WorldManager {
 	public override void SetWallState( int index, bool active ) {
 		switch (index) {
 		case 1:
-			if (debugAnimateDisplacement) {
+//			if (debugAnimateDisplacement) {
 				// Animate displacement
 				cut.amount += 0.001f;
 
@@ -31,12 +31,12 @@ public class WireWorldManager : WorldManager {
 					// PingPong lerp
 					cut.offset = new Vector2(Mathf.PingPong(Time.time, 3), Mathf.PingPong(Time.time, 3));
 				}
-			}
+//			}
 
 			break;
 
 		case 2:
-			if (debugAnimateDisplacement) {
+//			if (debugAnimateDisplacement) {
 				// Animate displacement
 				cut1.amount += 0.001f;
 
@@ -46,11 +46,11 @@ public class WireWorldManager : WorldManager {
 					// PingPong lerp
 					cut1.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
 				}
-			}
+//			}
 			break;
 
 		case 3:
-			if (debugAnimateDisplacement) {
+//			if (debugAnimateDisplacement) {
 				// Animate displacement
 				cut2.amount += 0.001f;
 
@@ -60,11 +60,11 @@ public class WireWorldManager : WorldManager {
 					// PingPong lerp
 					cut2.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
 				}
-			}
+//			}
 			break;
 
 		case 4:
-			if (debugAnimateDisplacement) {
+//			if (debugAnimateDisplacement) {
 				// Animate displacement
 				cut3.amount += 0.001f;
 
@@ -74,7 +74,7 @@ public class WireWorldManager : WorldManager {
 					// PingPong lerp
 					cut3.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
 				}
-			}
+//			}
 			break;
 		default:
 			break;

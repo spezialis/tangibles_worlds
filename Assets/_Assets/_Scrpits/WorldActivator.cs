@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-// can only work if there is also a DisplayWorld component in the same object
+// TODO: Check which world is active and if a second world is then activated, disable it. Never show 2 world at the same time! id:17 gh:7
 public class WorldActivator : MonoBehaviour {
 
 //	bool wasPreviouslyOff;
@@ -21,7 +21,7 @@ public class WorldActivator : MonoBehaviour {
 	public float activateDuration;
 	public float disableDuration;
 
-	Vector3 startScale = new Vector3(35, 35, 35);
+	Vector3 startScale = new Vector3(0, 0, 0);
 	Vector3 endScale = new Vector3(35, 35, 35);
 
 	public GameObject world;
@@ -143,9 +143,7 @@ public class WorldActivator : MonoBehaviour {
 					DisableWorld();
 				}
 			}
-
 		}
-
 	}
 
 	void Start () {

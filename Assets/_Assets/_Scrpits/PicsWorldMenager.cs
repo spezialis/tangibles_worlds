@@ -11,6 +11,8 @@ public class PicsWorldMenager : WorldManager {
 	public Animation wallPics3;
 	public Animation wallPics4;
 
+	// TODO: Check which wall is active and if all 4 are, animate the whole world id:16 gh:6
+
 	public override void SetWallState( int index, bool active ) {
 		switch (index) {
 		case 1:

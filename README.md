@@ -22,8 +22,9 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Think about what could happen if someone put his hands in two differents box.
 - [ ] Animate each world.
 - [ ] Lights.
-- [ ] End of the experience.
-	- [ ] Name of the project and credits.
+- [ ] End of the experience:
+	- [ ] Check when all the worlds are completely explored.
+	- [x] Show credits.
 	- [ ] Restart the experience each time some one remove the VR headset.
 - [ ] Bunch of others things on the scripts:
 	- [ ] Animate lights.
@@ -61,7 +62,7 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Bubble_base.png)
 - [x] Buy somo Rhodorsil Additif 11013 from [Silitech](http://www.silitech.ch/f/index.asp)
 
-**World palette color**
+**World palette color**<br>
 ![Alt text](Readme_data/Images/Bubble_palette_color.png)
 
 **Virtual Universe:**
@@ -85,7 +86,7 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Pics_base.png)
 - [ ] Wires from the arduino
 
-**World palette color**
+**World palette color**<br>
 ![Alt text](Readme_data/Images/Pics_palette_color.png)
 
 **Virtual Universe:**
@@ -107,7 +108,7 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Wire_base.png)
 - [ ] Wires from the arduino
 
-**World palette color**
+**World palette color**<br>
 ![Alt text](Readme_data/Images/Wire_palette_color.png)
 
 **Virtual Universe:**

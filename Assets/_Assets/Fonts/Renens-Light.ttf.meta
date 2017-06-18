@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5ab1b3fd711f94430a224305b2bc3dbf
+timeCreated: 1497823836
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Renens
+  fontNames:
+  - Renens
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
