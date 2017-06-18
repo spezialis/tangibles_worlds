@@ -29,6 +29,7 @@ This project is an attempt to create and establish a strong link between reality
 	- [ ] Animate lights.
 	- [ ] Move them around.
 	- [ ] Animate light intensity and range and color.
+	- [ ] Maybe add some shadows
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
