@@ -14,6 +14,7 @@ public class StartAnimation : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey ("space")) {
+			Debug.Log ("Start anim");
 			anim.SetTrigger ("Start");
 		}
 	}

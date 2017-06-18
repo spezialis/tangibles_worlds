@@ -21,7 +21,7 @@ public class WorldActivator : MonoBehaviour {
 	public float activateDuration;
 	public float disableDuration;
 
-	Vector3 startScale = new Vector3(0, 0, 0);
+	Vector3 startScale = new Vector3(35, 35, 35);
 	Vector3 endScale = new Vector3(35, 35, 35);
 
 	public GameObject world;
