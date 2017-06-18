@@ -70,7 +70,7 @@ public class GenerateWorld : MonoBehaviour {
 		newClone.transform.localScale = Vector3.one * Random.Range(1f, 3f);
 		newClone.transform.localRotation = Random.rotation;
 
-		// DONE: set the clones as a child of the game object "world"
+		// DONE: set the clones as a child of the game object "world" id:8
 		newClone.transform.SetParent(root.transform);
 //		newClone.transform.SetParent(gameObject.transform);
 

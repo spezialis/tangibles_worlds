@@ -6,7 +6,7 @@ using DG.Tweening;
 
 public class MoveLight : MonoBehaviour {
 
-	// TODO proposition: maybe the light could follow the camera rotation, and stay at a specific distance
+	// TODO proposition: maybe the light could follow the camera rotation, and stay at a specific distance id:4
 	Light light;
 
 	public float duration;
@@ -28,7 +28,7 @@ public class MoveLight : MonoBehaviour {
 	int startColor;
 	int targetColor;
 
-	// TODO change intensity or range or both
+	// TODO change intensity or range or both id:6
 
 	void Start () {
 		light = GetComponent<Light> ();

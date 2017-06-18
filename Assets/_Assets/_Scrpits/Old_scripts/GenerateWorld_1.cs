@@ -38,7 +38,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 	//Vector3 startPosition = new Vector3(-0.4f, 1.31f, 0.516f);
 	//Vector3 startPosition = new Vector3(root.transform);
 
-	// DONE: make this script work for each zone
+	// DONE: make this script work for each zone id:1
 	void Awake(){
 		
 		// Reference to antother script
@@ -54,7 +54,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 		mustExplode.AddListener (DoExplode);
 		mustUnexplode.AddListener (DoUnexplode);
 
-		// DONE: load resources using their name on the inspector
+		// DONE: load resources using their name on the inspector id:3
 		// OLD clone = Resources.Load(resource) as GameObject;
 		// List of clones
 		clones = new List<GameObject> ();
@@ -75,7 +75,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 		foreach (GameObject clone in clones) {
 			//randomPos ();
 			clone.SetActive(true);
-			// TODO animation sequence Dotween & take care of exploding only in the sequence onmComplete, not in each tween onComplete
+			// TODO animation sequence Dotween & take care of exploding only in the sequence onmComplete, not in each tween onComplete id:5
 			clone.transform.DOMove (randomPos(), 1).SetEase (Ease.OutBack).OnComplete(
 				() => {
 					exploding = false;
@@ -166,7 +166,7 @@ public class GenerateWorld_1 : MonoBehaviour {
 		// asign random scale to each newClone
 		newClone.transform.localScale = Vector3.one * Random.Range(0.1f, 0.2f);
 
-		// DONE: set the clones as a child of the game object "world"
+		// DONE: set the clones as a child of the game object "world" id:7
 		newClone.transform.SetParent(root.transform);
 //		newClone.transform.SetParent(gameObject.transform);
 

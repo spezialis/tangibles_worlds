@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BackgroundColor : MonoBehaviour {
 	
-	// TODO add a lerp to change the background color when a world is activate
+	// TODO add a lerp to change the background color when a world is activate id:0
 	Camera camera;
 
 	public GameObject picsWorld;

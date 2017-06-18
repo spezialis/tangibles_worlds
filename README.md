@@ -2,6 +2,7 @@
 Virtual reality allows us to disconnect from reality to immerse ourselves in the unreal. But what happens when this virtual reality is also tangible?
 
 This project offers an experience of sensory immersion, the tangibility of which leads us beyond a simple visual observation. We intervene in the world by touching it. The tactile experience is fundamental because becomes a catalyst, who tries to change, all the facets of the virtual reality in which we are placed. What we perceive from the outside, does not represent what we live inside the virtual world.
+
 ![Alt text](Readme_data/Photos/Tangibles-Worlds_ECAL.jpg)
 
 This project is an attempt to create and establish a strong link between reality and Virtual Reality. In a way the project reflect how to manipulate the reality and influence the virtual world and vice versa. I'm trying to explore what it means to touch some strange materials without seeing our hands and see something happening in a virtual world.
@@ -27,6 +28,7 @@ This project is an attempt to create and establish a strong link between reality
 - [ ] Bunch of others things on the scripts:
 	- [ ] Animate lights.
 	- [ ] Move them around.
+	- [ ] Animate light intensity and range and color.
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
@@ -58,6 +60,9 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Bubble_base.png)
 - [x] Buy somo Rhodorsil Additif 11013 from [Silitech](http://www.silitech.ch/f/index.asp)
 
+**World palette color**
+![Alt text](Readme_data/Images/Bubble_palette_color.png)
+
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Bubble_world.png)
 
@@ -79,6 +84,9 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Pics_base.png)
 - [ ] Wires from the arduino
 
+**World palette color**
+![Alt text](Readme_data/Images/Pics_palette_color.png)
+
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Pics_world.png)
 
@@ -97,6 +105,9 @@ This project is an attempt to create and establish a strong link between reality
 	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Wire_base.png)
 - [ ] Wires from the arduino
+
+**World palette color**
+![Alt text](Readme_data/Images/Wire_palette_color.png)
 
 **Virtual Universe:**
 ![Alt text](Readme_data/Images/Wire_world.png)
