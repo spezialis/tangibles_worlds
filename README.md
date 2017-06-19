@@ -30,7 +30,7 @@ This project is an attempt to create and establish a strong link between reality
 	- [ ] Animate lights.
 	- [ ] Move them around.
 	- [ ] Animate light intensity and range and color.
-	- [ ] Maybe add some shadows
+	- [ ] Maybe add some shadows.
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
@@ -116,19 +116,18 @@ This project is an attempt to create and establish a strong link between reality
 
 **Sensors:**
 - [ ] 4 Capacitive wire
-- [ ] 4 10kΩ resistors
-- [ ] 4 270kΩ resistors
+- [x] 4 10kΩ resistors
+- [x] 4 270kΩ resistors
 
 ## Manufacturing planning
 - [x] 3 plexiglass boxes.
 ![Alt text](Readme_data/Images/Plexi_box_2D.png)
-- [ ] Build the support for the Oculus sensors.
-![Alt text](Readme_data/Images/Setup_pieces_2D-02.jpg)
+- [ ] Make a hole on the wall to support the oculus sensor
 - [x] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/)
 	- [x] holes for the cables.
 	- [x] base
 - [ ] Build a box to hide the pc
-- [ ] Cut 3 pads for the plexiglass holes on the digital cutter
+- [x] Cut 3 pads for the plexiglass holes on the digital cutter
 ![Alt text](Readme_data/Images/Digital_cutter_pads.png)
 
 ## Setup
@@ -141,9 +140,9 @@ On the CV openspace.
 ## Useful links:
 **Baking Animations**
 (Bake Nurbs into PLA Cinema 4D Tutorial)[https://vimeo.com/88822458]<br>
-(Baking Animated Deformers or Effectors with Point Cache Tag)[https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag]
-(Shaders)[http://www.shaderslab.com]
-(Cubemap)[http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox]
+(Baking Animated Deformers or Effectors with Point Cache Tag)[https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag]<br>
+(Shaders)[http://www.shaderslab.com]<br>
+(Cubemap)[http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox]<br>
 (Unity Skyboxes)[http://www.andrewnoske.com/wiki/Unity_-_Skyboxes]
 
 ## Git from Terminal
