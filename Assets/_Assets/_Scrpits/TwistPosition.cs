@@ -8,6 +8,7 @@ public class TwistPosition : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+//		megaTwist = GetComponent<MegaTwist> ();
 		megaTwist.gizmoPos = new Vector3(0, -1.5f, 0);
 	}
 
