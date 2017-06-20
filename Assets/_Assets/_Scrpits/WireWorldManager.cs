@@ -21,60 +21,60 @@ public class WireWorldManager : WorldManager {
 	public override void SetWallState( int index, bool active ) {
 		switch (index) {
 		case 1:
-//			if (debugAnimateDisplacement) {
-				// Animate displacement
-				cut.amount += 0.001f;
+			// Animate displacement
+			cut.ModEnabled = active;
 
-				if (cut.amount >= 0.01f) {
-					cut.amount = 0.01f;
+			cut.amount += 0.001f;
 
-					// PingPong lerp
-					cut.offset = new Vector2(Mathf.PingPong(Time.time, 3), Mathf.PingPong(Time.time, 3));
-				}
-//			}
+			if (cut.amount >= 0.01f) {
+				cut.amount = 0.01f;
+
+				// PingPong lerp
+				cut.offset = new Vector2(Mathf.PingPong(Time.time, 3), Mathf.PingPong(Time.time, 3));
+			}
 
 			break;
 
 		case 2:
-//			if (debugAnimateDisplacement) {
-				// Animate displacement
-				cut1.amount += 0.001f;
+			// Animate displacement
+			cut1.ModEnabled = active;
+		
+			cut1.amount += 0.001f;
 
-				if (cut1.amount >= 0.01f) {
-					cut1.amount = 0.01f;
+			if (cut1.amount >= 0.01f) {
+				cut1.amount = 0.01f;
 
-					// PingPong lerp
-					cut1.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
-				}
-//			}
+				// PingPong lerp
+				cut1.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
+			}
 			break;
 
 		case 3:
-//			if (debugAnimateDisplacement) {
-				// Animate displacement
-				cut2.amount += 0.001f;
+			// Animate displacement
+			cut2.ModEnabled = active;
+				
+			cut2.amount += 0.001f;
 
-				if (cut2.amount >= 0.01f) {
-					cut2.amount = 0.01f;
+			if (cut2.amount >= 0.01f) {
+				cut2.amount = 0.01f;
 
-					// PingPong lerp
-					cut2.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
-				}
-//			}
+				// PingPong lerp
+				cut2.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
+			}
 			break;
 
 		case 4:
-//			if (debugAnimateDisplacement) {
-				// Animate displacement
-				cut3.amount += 0.001f;
+			// Animate displacement
+			cut3.ModEnabled = active;
 
-				if (cut3.amount >= 0.01f) {
-					cut3.amount = 0.01f;
+			cut3.amount += 0.001f;
 
-					// PingPong lerp
-					cut3.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
-				}
-//			}
+			if (cut3.amount >= 0.01f) {
+				cut3.amount = 0.01f;
+
+				// PingPong lerp
+				cut3.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
+			}
 			break;
 		default:
 			break;

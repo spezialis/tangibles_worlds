@@ -91,7 +91,9 @@ public class WorldActivator : MonoBehaviour {
 
 	void ArduinoUpdateWorldActivation() {
 
-		bool currentSensorState = manager.ArduinoUpdateForPin_isPinValueSuperiorToThreshold(whichPinWorldActivation, thresholdWorldActivation);
+		bool activationStateIsOnArduinoUno = false; // always.
+
+		bool currentSensorState = manager.ArduinoUpdateForPin_isPinValueSuperiorToThreshold(whichPinWorldActivation, thresholdWorldActivation, activationStateIsOnArduinoUno);
 
 		if (currentSensorState) {
 
@@ -129,7 +131,7 @@ public class WorldActivator : MonoBehaviour {
 			float delayMustWait = isThereAScalingPlaying() ? delayMustWaitBeforeActivationDuringScalingDown : delayMustWaitBeforeActivationWhenOff;
 
 			if (durationSensorBeingOn > delayMustWait) {
-				if (!worldSupposedToBeActive) {
+				if (!worldSupposedToBeActive && BoxesManager.canActivateAWorldNow()) {
 					ActivateWorld();
 				}
 			}

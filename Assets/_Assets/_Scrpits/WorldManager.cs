@@ -7,6 +7,8 @@ public class WorldManager : MonoBehaviour {
 
 	public bool valueIsSuperior;
 
+	public bool wallSensorsOnArduinoUno;
+
 	public string whichPinWall1;
 	public string whichPinWall2;
 	public string whichPinWall3;
@@ -17,17 +19,34 @@ public class WorldManager : MonoBehaviour {
 	public int threshold3;
 	public int threshold4;
 
-	public bool ArduinoUpdateForPin_isPinValueInferiorToThreshold( string whichPin, int threshold ) {
-		return ArduinoUpdateForPin( whichPin, threshold, false);
+	public bool ArduinoUpdateForPin_isPinValueInferiorToThreshold( string whichPin, int threshold, bool arduinoUno ) {
+		return ArduinoUpdateForPin( whichPin, threshold, false, arduinoUno);
 	}
 
-	public bool ArduinoUpdateForPin_isPinValueSuperiorToThreshold( string whichPin, int threshold ) {
-		return ArduinoUpdateForPin( whichPin, threshold, true);
+	public bool ArduinoUpdateForPin_isPinValueSuperiorToThreshold( string whichPin, int threshold, bool arduinoUno ) {
+		return ArduinoUpdateForPin( whichPin, threshold, true, arduinoUno);
 	}
 
-	public bool ArduinoUpdateForPin( string whichPin, int threshold, bool superior ) {
-		if (MessageListener.pins.ContainsKey (whichPin)) {
-			int pinValue = MessageListener.pins [whichPin];
+	public bool MessageListenerHasPin(string whichPin, bool arduinoUno) {
+		if (arduinoUno) {
+			return MessageListener1.pins.ContainsKey (whichPin);
+		} else {
+			return MessageListener.pins.ContainsKey (whichPin);
+		}
+	}
+
+	public int MessageListenerGetPin(string whichPin, bool arduinoUno) {
+		if (arduinoUno) {
+			return MessageListener1.pins [whichPin];
+		} else {
+			return MessageListener.pins [whichPin];
+		}
+	}
+
+	public bool ArduinoUpdateForPin( string whichPin, int threshold, bool superior, bool arduinoUno ) {
+		if (MessageListenerHasPin(whichPin, arduinoUno)) {
+			int pinValue = MessageListenerGetPin (whichPin, arduinoUno);
+//			Debug.Log (pinValue);
 			if (superior) {
 				return pinValue > threshold;
 			} else {
@@ -43,10 +62,10 @@ public class WorldManager : MonoBehaviour {
 
 	void ArduinoUpdateWalls() {
 		//Debug.Log ("ARDUINO UPDATE");
-		SetWallState(1, ArduinoUpdateForPin (whichPinWall1, threshold1, valueIsSuperior));
-		SetWallState(2, ArduinoUpdateForPin (whichPinWall2, threshold2, valueIsSuperior));
-		SetWallState(3, ArduinoUpdateForPin (whichPinWall3, threshold3, valueIsSuperior));
-		SetWallState(4, ArduinoUpdateForPin (whichPinWall4, threshold4, valueIsSuperior));
+		SetWallState(1, ArduinoUpdateForPin (whichPinWall1, threshold1, valueIsSuperior, wallSensorsOnArduinoUno));
+		SetWallState(2, ArduinoUpdateForPin (whichPinWall2, threshold2, valueIsSuperior, wallSensorsOnArduinoUno));
+		SetWallState(3, ArduinoUpdateForPin (whichPinWall3, threshold3, valueIsSuperior, wallSensorsOnArduinoUno));
+		SetWallState(4, ArduinoUpdateForPin (whichPinWall4, threshold4, valueIsSuperior, wallSensorsOnArduinoUno));
 	}
 
 	public virtual void SetWallState (int index, bool active) {

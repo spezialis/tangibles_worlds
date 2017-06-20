@@ -24,7 +24,7 @@ public class BubbleWorldManager : WorldManager {
 
 	public Animation wallBubbles1;
 	public MegaPointCache wall1_surface;
-	public AudioSource wall1_sound;
+//	public AudioSource wall1_sound;
 
 	public Animation wallBubbles2;
 	public MegaPointCache wall2_surface;
@@ -41,7 +41,7 @@ public class BubbleWorldManager : WorldManager {
 		case 1:
 			wallBubbles1.enabled = active;
 			wall1_surface.animated = active;
-			wall1_sound.enabled = active;
+//			wall1_sound.enabled = active;
 			break;
 		case 2:
 			wallBubbles2.enabled = active;
