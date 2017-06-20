@@ -19,6 +19,11 @@ public class WorldManager : MonoBehaviour {
 	public int threshold3;
 	public int threshold4;
 
+	public bool wall1ActivatedOnce;
+	public bool wall2ActivatedOnce;
+	public bool wall3ActivatedOnce;
+	public bool wall4ActivatedOnce;
+
 	public bool ArduinoUpdateForPin_isPinValueInferiorToThreshold( string whichPin, int threshold, bool arduinoUno ) {
 		return ArduinoUpdateForPin( whichPin, threshold, false, arduinoUno);
 	}
