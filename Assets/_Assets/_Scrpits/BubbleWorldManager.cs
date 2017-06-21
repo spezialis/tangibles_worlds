@@ -6,55 +6,53 @@ public class BubbleWorldManager : WorldManager {
 
 	private static BubbleWorldManager instance;
 
-//	public static void SetWallState1 ( bool active ) {
-//		instance.SetWallState (1, active);
-//	}
-//
-//	public static void SetWallState2 ( bool active ) {
-//		instance.SetWallState (2, active);
-//	}
-//
-//	public static void SetWallState3 ( bool active ) {
-//		instance.SetWallState (3, active);
-//	}
-//
-//	public static void SetWallState4 ( bool active ) {
-//		instance.SetWallState (4, active);
-//	}
-
+	// Walls spheres
+	// TODO: Make a better animation for this spheres, start whit a grown and then mouve them.
+	// TODO: Check ho to simcronize the MegaPointCache animation whit the bubbles animations.
 	public Animation wallBubbles1;
-	public MegaPointCache wall1_surface;
-//	public AudioSource wall1_sound;
-
 	public Animation wallBubbles2;
-	public MegaPointCache wall2_surface;
-	// TODO public AudioSource wall2_sound; id:2
-
 	public Animation wallBubbles3;
-	public MegaPointCache wall3_surface;
-
 	public Animation wallBubbles4;
-	public MegaPointCache wall4_surface;
+
+	// Walls surfaces
+	public MegaPointCache wallSurface1;
+	public MegaPointCache wallSurface2;
+	public MegaPointCache wallSurface3;
+	public MegaPointCache wallSurface4;
+
+	// Walls sounds
+	public AudioSource wallSound1;
+	public AudioSource wallSound2;
+	public AudioSource wallSound3;
+	public AudioSource wallSound4;
+
 
 	public override void SetWallState( int index, bool active ) {
 		switch (index) {
 		case 1:
 			wallBubbles1.enabled = active;
-			wall1_surface.animated = active;
-//			wall1_sound.enabled = active;
+			wallSurface1.animated = active;
+			wallSound1.enabled = active;
 			break;
+
 		case 2:
 			wallBubbles2.enabled = active;
-			wall2_surface.animated = active;
+			wallSurface2.animated = active;
+			wallSound2.enabled = active;
 			break;
+
 		case 3:
 			wallBubbles3.enabled = active;
-			wall3_surface.animated = active;
+			wallSurface3.animated = active;
+			wallSound3.enabled = active;
 			break;
+
 		case 4:
 			wallBubbles4.enabled = active;
-			wall4_surface.animated = active;
+			wallSurface4.animated = active;
+			wallSound1.enabled = active;
 			break;
+
 		default:
 			break;
 		}

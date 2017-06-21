@@ -11,12 +11,15 @@ public class WireWorldManager : WorldManager {
 //	public Animation wallWire3;
 //	public Animation wallWire4;
 
-	// TODO at the end of the project remove the debugAnimateDisplacement id:9
-//	public bool debugAnimateDisplacement;
 	public MegaDisplace cut;
 	public MegaDisplace cut1;
 	public MegaDisplace cut2;
 	public MegaDisplace cut3;
+
+	public AudioSource wallSound1;
+	public AudioSource wallSound2;
+	public AudioSource wallSound3;
+	public AudioSource wallSound4;
 
 	public override void SetWallState( int index, bool active ) {
 		switch (index) {
@@ -33,6 +36,9 @@ public class WireWorldManager : WorldManager {
 				cut.offset = new Vector2(Mathf.PingPong(Time.time, 3), Mathf.PingPong(Time.time, 3));
 			}
 
+			// Sound
+			wallSound1.enabled = active;
+
 			break;
 
 		case 2:
@@ -47,6 +53,9 @@ public class WireWorldManager : WorldManager {
 				// PingPong lerp
 				cut1.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
 			}
+
+			// Sound
+			wallSound2.enabled = active;
 			break;
 
 		case 3:
@@ -61,6 +70,9 @@ public class WireWorldManager : WorldManager {
 				// PingPong lerp
 				cut2.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
 			}
+
+			// Sound
+			wallSound3.enabled = active;
 			break;
 
 		case 4:
@@ -75,6 +87,9 @@ public class WireWorldManager : WorldManager {
 				// PingPong lerp
 				cut3.offset = new Vector2 (Mathf.PingPong (Time.time, 3), Mathf.PingPong (Time.time, 3));
 			}
+
+			// Sound
+			wallSound4.enabled = active;
 			break;
 		default:
 			break;
