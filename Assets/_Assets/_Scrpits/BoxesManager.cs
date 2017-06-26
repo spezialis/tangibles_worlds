@@ -12,7 +12,7 @@ public class BoxesManager : MonoBehaviour {
 
 	public static bool aWorldIsActive() {
 		foreach (WorldActivator world in instance.worldActivators) {
-			if (world.world.activeSelf) {
+			if (!world.worldIsShrinked) {
 				return true;
 			}
 		}

@@ -20,6 +20,8 @@ public class MessageListener1 : MonoBehaviour {
 	public static Dictionary<string, int> pins = new Dictionary<string, int>();
 	string[] pinNames = {"pinD8", "pinD9", "pinD10", "pinD11"};
 
+//	public List<Vector2> pinDebug;
+
 	public string messageIn;
 	
 	// Invoked when a line of data is received from the serial device.
@@ -31,11 +33,13 @@ public class MessageListener1 : MonoBehaviour {
 		//Debug.Log (msgs[0]);
 
 		for(int i = 0; (i < msgs.Length && i < pinNames.Length); i++) {
+			int value = int.Parse (msgs [i]);
 			if (pins.ContainsKey (pinNames [i])) {
-				pins [pinNames [i]] = int.Parse (msgs [i]);
+				pins [pinNames [i]] = value;
 			} else {
-				pins.Add(pinNames [i],  int.Parse (msgs [i]));
+				pins.Add(pinNames [i], value);
 			}
+//			ArduinoDebug.instance.UpdateDebugValue (ArduinoDebug.instance.pinDebug_D, i, value);
 		}
 	}
 
@@ -47,5 +51,11 @@ public class MessageListener1 : MonoBehaviour {
 			Debug.Log("Connection established");
 		else
 			Debug.Log("Connection attempt failed or disconnection detected");
+	}
+
+	void Start() {
+		for (int i = 0; i < pinNames.Length; i++) {
+//			ArduinoDebug.instance.Declare( ArduinoDebug.instance.pinDebug_D, pinNames[i] );
+		}
 	}
 }

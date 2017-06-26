@@ -6,6 +6,10 @@ using DG.Tweening;
 // TODO: Check which world is active and if a second world is then activated, disable it. Never show 2 world at the same time! id:17 gh:7
 public class WorldActivator : MonoBehaviour {
 
+	public bool KeepActive;
+
+	public bool worldIsShrinked; // additional state var we must maintain that is used to have a single variable where .active state is not enough (because KeepActive) and worldSupposedToBeActive is too early.
+
 //	bool wasPreviouslyOff;
 	float durationSensorBeingOff;
 	bool sensorWasPreviouslyOn;
@@ -32,7 +36,7 @@ public class WorldActivator : MonoBehaviour {
 
 	public int thresholdWorldActivation;
 
-	bool worldSupposedToBeActive;
+	public bool worldSupposedToBeActive;
 
 	Tween scalingTween;
 
@@ -53,6 +57,8 @@ public class WorldActivator : MonoBehaviour {
 			float scaleFactor = world.transform.localScale.x;
 			float duration = activateDuration * ( 35 - scaleFactor ) / 35;
 
+			worldIsShrinked = false;
+
 			worldSupposedToBeActive = true;
 			world.SetActive (true);
 			scalingTween = world.transform.DOScale (endScale, duration)
@@ -61,6 +67,9 @@ public class WorldActivator : MonoBehaviour {
 				)
 				//.SetEase(Ease.InSine)
 				;
+
+			BoxHider.SetBoxesVisibility (false);
+
 		}
 	}
 
@@ -80,12 +89,17 @@ public class WorldActivator : MonoBehaviour {
 			worldSupposedToBeActive = false;
 			scalingTween = world.transform.DOScale (startScale, duration)
 				.OnComplete (
-					() => world.SetActive (false)
+					() => {
+						world.SetActive (false || KeepActive); // non optimal syntax for readability
+						worldIsShrinked = true;
+					}
 				).OnKill (
 					() => scalingTween = null
 				)
 				//.SetEase(Ease.OutSine)
 				;
+
+			BoxHider.SetBoxesVisibility (true);
 		}
 	}
 
@@ -149,6 +163,7 @@ public class WorldActivator : MonoBehaviour {
 	}
 
 	void Start () {
+		worldIsShrinked = true;
 		sensorWasPreviouslyOn = false;
 		durationSensorBeingOff = 0;
 		durationSensorBeingOn = 0;

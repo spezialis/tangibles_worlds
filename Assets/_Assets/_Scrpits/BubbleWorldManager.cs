@@ -50,7 +50,7 @@ public class BubbleWorldManager : WorldManager {
 		case 4:
 			wallBubbles4.enabled = active;
 			wallSurface4.animated = active;
-			wallSound1.enabled = active;
+			wallSound4.enabled = active;
 			break;
 
 		default:

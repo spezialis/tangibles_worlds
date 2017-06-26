@@ -5,6 +5,8 @@ using UnityEngine;
 // this class is specified for all the worlds
 public class WorldManager : MonoBehaviour {
 
+	public WorldActivator myWorldActivator;
+
 	public bool valueIsSuperior;
 
 	public bool wallSensorsOnArduinoUno;
@@ -83,6 +85,8 @@ public class WorldManager : MonoBehaviour {
 	
 	void Update () {
 		//Debug.Log ("UPDATE");
-		ArduinoUpdateWalls ();
+		if (myWorldActivator.worldSupposedToBeActive) {
+			ArduinoUpdateWalls ();
+		}
 	}
 }
