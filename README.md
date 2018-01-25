@@ -137,14 +137,14 @@ The 3 boxes will be over a special support.
 On the CV openspace.
 
 ## Useful links:
-**Baking Animations in Cinema4D**
-[Bake Nurbs into PLA Cinema 4D Tutorial](https://vimeo.com/88822458)
-[Baking Animated Deformers or Effectors with Point Cache Tag](https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag)
-[Shaders](http://www.shaderslab.com)
-[Cubemap](http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox)
-[Unity Skyboxes](http://www.andrewnoske.com/wiki/Unity_-_Skyboxes)
+**Baking Animations in Cinema4D:**<br>
+- [Bake Nurbs into PLA Cinema 4D Tutorial](https://vimeo.com/88822458)
+- [Baking Animated Deformers or Effectors with Point Cache Tag](https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag)
+- [Shaders](http://www.shaderslab.com)
+- [Cubemap](http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox)
+- [Unity Skyboxes](http://www.andrewnoske.com/wiki/Unity_-_Skyboxes)<br>
 
-**Serial communication for integrating Arduino and Unity**
+**Serial communication for integrating Arduino and Unity:**<br>
 [SerialCommUnity](https://github.com/dwilches/SerialCommUnity)
 
 ## Git from Terminal
