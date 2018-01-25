@@ -15,22 +15,21 @@ This project is an attempt to create and establish a strong link between reality
 ## TODO | DONE
 ### Unity
 - [x] Create 3 difference environment for each box.
-	- [ ] Bake textures
-	- [ ] Bake animations from Cinema 4D to Unity
+	- [x] Bake textures
+	- [x] Bake animations from Cinema 4D to Unity
 - [x] When the user put his hand inside a cube the world is revealed
 - [x] Improve the scripts for the serial communication between Unity and Arduino.
-- [ ] Think about what could happen if someone put his hands in two differents box.
-- [ ] Animate each world.
-- [ ] Lights.
+- [x] Animate each world.
+- [x] Lights.
 - [ ] End of the experience:
 	- [ ] Check when all the worlds are completely explored.
 	- [x] Show credits.
 	- [ ] Restart the experience each time some one remove the VR headset.
-- [ ] Bunch of others things on the scripts:
-	- [ ] Animate lights.
-	- [ ] Move them around.
-	- [ ] Animate light intensity and range and color.
-	- [ ] Maybe add some shadows.
+- [x] Bunch of others things on the scripts:
+	- [x] Animate lights.
+	- [x] Move them around.
+	- [x] Animate light intensity and range and color.
+	- ~~[ ] Maybe add some shadows.~~
 
 #### Some visuals
 ![Alt text](Readme_data/Images/Test_scene.png)
@@ -42,7 +41,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] 1 LED stripe.
 - [x] 4 Flex sensors + 4 47kΩ resistors.
 - [x] 3 Distance sensors Sharp GP2Y0A21YK0F 5 V/DC (10-80cm).
-- [ ] Put everything together.
+- [x] Put everything together.
 ![Alt text](Readme_data/Images/Arduino_sensors_connections.png)
 ![Alt text](Readme_data/Images/Arduino_sensors_connections_scheme.png)
 
@@ -50,10 +49,10 @@ This project is an attempt to create and establish a strong link between reality
 **Materials:**
 - [x] Mold
 ![Alt text](Readme_data/Photos/IMG_20170511_193611.jpg)
-- [ ] 4 Silicone mold with 4 flex sensors.
-- [ ] Fill the mold with:
+- [x] 4 Silicone mold with 4 flex sensors.
+- [x] Fill the mold with:
 	- [ ] [Pearl clay](https://s-media-cache-ak0.pinimg.com/originals/c7/f3/d3/c7f3d376586a34ae77c89879f5f09bfa.jpg) or
-	- [ ] Sagex pearls.
+	- [x] Sagex pearls.
 - [x] Mold support MDF
 ![Alt text](Readme_data/Images/Bubble_mold_support.png)
 - [x] Base MDF
@@ -72,7 +71,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] 1 Arduino mega
 - [x] 4 Flex
 - [x] 4 47kΩ resistors
-- [ ] Wires from the other boxes
+- [x] Wires from the other boxes
 
 ## 2. Pics
 **Materials:**
@@ -84,7 +83,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Base MDF
 	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Pics_base.png)
-- [ ] Wires from the arduino
+- [x] Wires from the arduino
 
 **World palette color**<br>
 ![Alt text](Readme_data/Images/Pics_palette_color.png)
@@ -102,7 +101,7 @@ This project is an attempt to create and establish a strong link between reality
 - [x] Wire support Steel
 ![Alt text](Readme_data/Images/Wire_support.png)
 - [x] Put some elastic wire
-- [ ] Put some conductive wire
+- [x] Put some conductive wire
 - [x] Base MDF
 	- [x] Make a hole for the cables
 ![Alt text](Readme_data/Images/Wire_base.png)
@@ -115,18 +114,18 @@ This project is an attempt to create and establish a strong link between reality
 ![Alt text](Readme_data/Images/Wire_world.png)
 
 **Sensors:**
-- [ ] 4 Capacitive wire
+- [x] 4 Capacitive wire
 - [x] 4 10kΩ resistors
 - [x] 4 270kΩ resistors
 
 ## Manufacturing planning
 - [x] 3 plexiglass boxes.
 ![Alt text](Readme_data/Images/Plexi_box_2D.png)
-- [ ] Make a hole on the wall to support the oculus sensor
+- [x] Make a hole on the wall to support the oculus sensor
 - [x] 3 [table legs](http://www.ikea.com/ch/it/catalog/products/70217973/)
 	- [x] holes for the cables.
 	- [x] base
-- [ ] Build a box to hide the pc
+- [x] Build a box to hide the pc
 - [x] Cut 3 pads for the plexiglass holes on the digital cutter
 ![Alt text](Readme_data/Images/Digital_cutter_pads.png)
 
@@ -138,12 +137,15 @@ The 3 boxes will be over a special support.
 On the CV openspace.
 
 ## Useful links:
-**Baking Animations**
-(Bake Nurbs into PLA Cinema 4D Tutorial)[https://vimeo.com/88822458]<br>
-(Baking Animated Deformers or Effectors with Point Cache Tag)[https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag]<br>
-(Shaders)[http://www.shaderslab.com]<br>
-(Cubemap)[http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox]<br>
-(Unity Skyboxes)[http://www.andrewnoske.com/wiki/Unity_-_Skyboxes]
+**Baking Animations in Cinema4D**
+[Bake Nurbs into PLA Cinema 4D Tutorial](https://vimeo.com/88822458)
+[Baking Animated Deformers or Effectors with Point Cache Tag](https://www.thepixellab.net/c4d-tutorial-baking-animated-deformers-or-effectors-with-point-cache-tag)
+[Shaders](http://www.shaderslab.com)
+[Cubemap](http://www.andrewnoske.com/wiki/Cinema_4D_-_Generating_a_Skybox)
+[Unity Skyboxes](http://www.andrewnoske.com/wiki/Unity_-_Skyboxes)
+
+**Serial communication for integrating Arduino and Unity**
+[SerialCommUnity](https://github.com/dwilches/SerialCommUnity)
 
 ## Git from Terminal
 - Status
