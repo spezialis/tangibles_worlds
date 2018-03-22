@@ -3,7 +3,8 @@ Virtual reality allows us to disconnect from reality to immerse ourselves in the
 
 This project offers an experience of sensory immersion, the tangibility of which leads us beyond a simple visual observation. We intervene in the world by touching it. The tactile experience is fundamental because becomes a catalyst, who tries to change, all the facets of the virtual reality in which we are placed. What we perceive from the outside, does not represent what we live inside the virtual world.
 
-![Alt text](Readme_data/Photos/Tangibles-Worlds_ECAL.jpg)
+![Alt text](Readme_data/Photos/diplomesMID.01_LQ.jpg)
+![Alt text](Readme_data/Photos/diplomesMID.02_LQ.jpg)
 
 This project is an attempt to create and establish a strong link between reality and Virtual Reality. In a way the project reflect how to manipulate the reality and influence the virtual world and vice versa. I'm trying to explore what it means to touch some strange materials without seeing our hands and see something happening in a virtual world.
 
